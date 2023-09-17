@@ -29,13 +29,18 @@ Data Processing:
 Video Synchronization and Visualization
 One of the key challenges in remote physiological monitoring is ensuring that the data is visualized in a manner that's both intuitive and aligned with real-time events. To address this, our project incorporates a dedicated window for video playback, enabling users to gain a visual representation of the imaging data.
 
+Pipeline for the physiological parameters estimation
+<img width="657" alt="Screenshot 2023-09-17 at 23 21 12" src="https://github.com/nempremkumar/Remote-photoplethysmography-heart-rate-and-breathing-rate-extraction-/assets/145294904/f97cb5dc-81e1-44f5-aed9-a8c4cb8a8882">
+
+
+
 Thermal Work:
 The thermal dataset undergoes various processing stages, including:
 ROI extraction
 Temporal signal extraction
 Transformation using FFT, PCA, and ICA for heart rate extraction
-Multispectral Work
 
+Multispectral Work:
 The multispectral data, with its 16 distinct bandwidths, offers a rich set of information:
 Extraction of temporal signals for each bandwidth
 Smoothing using a window size of 5
