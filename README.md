@@ -1,5 +1,5 @@
 # Remote-photoplethysmography-heart-rate-and-breathing-rate-extraction-
-This repository contains the project work on non-invasive physiological monitoring using thermal and multispectral imaging techniques. The primary goal is to extract vital signs, such as heart rate, by processing the imaging data.
+This repository contains the project work on non-invasive physiological monitoring using thermal and multispectral NIR imaging techniques. The primary goal is to extract vital signs, such as heart rate and breathing rate, by processing the imaging data.
 
 Table of Contents
 
