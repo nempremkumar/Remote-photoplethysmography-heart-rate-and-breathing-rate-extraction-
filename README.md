@@ -1,5 +1,5 @@
-# Remote-photoplethysmography-heart-rate-and-breathing-rate-extraction-
-This repository contains the project work on non-invasive physiological monitoring using thermal and multispectral NIR imaging techniques. The primary goal is to extract vital signs, such as heart rate and breathing rate, by processing the imaging data.
+# rppg-heart-rate-extraction-
+This repository contains the project work on non-invasive physiological monitoring using thermal and multispectral NIR imaging techniques. The primary goal is to extract vital signs, such as heart rate, by processing the imaging data.
 
 Table of Contents
 
@@ -7,7 +7,7 @@ Certainly! Here's a template for your GitHub README based on the details you've 
 
 Remote Physiological Monitoring Using Thermal and Multispectral NIR Imaging
 
-This repository contains the project work on non-invasive physiological monitoring using thermal and multispectral NIR imaging techniques. The primary goal is to extract vital signs, such as heart rate and breathing rate, by processing the imaging data.
+This repository contains the project work on non-invasive physiological monitoring using thermal and multispectral NIR imaging techniques. The primary goal is to extract vital signs, such as heart rate, by processing the imaging data.
 
 Table of Contents
 
@@ -38,14 +38,13 @@ Thermal Work:
 The thermal dataset undergoes various processing stages, including:
 ROI extraction
 Temporal signal extraction
-Transformation using FFT, PCA, and ICA for heart rate extraction
+heart rate extraction
 
 Multispectral Work:
 The multispectral data, with its 16 distinct bandwidths, offers a rich set of information:
 Extraction of temporal signals for each bandwidth
 Smoothing using a window size of 5
-Signal transformation using FFT, PCA, and ICA techniques
-Heart rate extraction for each transformed signal
+Heart rate extraction
 
 Installation and Setup
 
